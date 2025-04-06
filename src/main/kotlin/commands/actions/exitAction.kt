@@ -1,5 +1,8 @@
 package commands.actions
 
+import kotlin.system.exitProcess
+
 internal fun exitAction() {
-    println("Exit action")
+    println("Goodbye! 👋")
+    exitProcess(0)
 }
